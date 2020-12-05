@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+.central{
+    flex-direction: column;
+}
+.image{
+    background: url(imagens/aurora.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+header{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: center; 
+    font-family: 'Roboto',Arial, Helvetica, sans-serif; 
+}
+.container{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #727272;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0px;
+    padding: 0px0;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #727272;
+}
+nav .active a,
+nav a:hover{
+background-color: black;
+color: white;
+}
+
+/*-----------------------------------------SECAO 1-------------------------------------------------*/
+.banner-central{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre+Baskerville' Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+} 
+.banner-central h1{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Libre+Baskerville' Arial, Helvetica, sans-serif;
+}
+.banner-central h2{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Libre+Baskerville' Arial, Helvetica, sans-serif;
+}
+.btn{
+    display: block;
+    margin-top: 50px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: white solid 3px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+     
+ }
+ 
+
+
+
+/*-----------------------------------------SECAO 2-------------------------------------------------*/
+#conteudo{
+    display: flex;
+    justify-content: center;
+}
+.coluna{
+    flex-direction: column;
+}
+.headline{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 30px;  
+}
+.headline h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: black;
+    margin: 0px;
+    width: 100%;
+    
+}
+.headline h2{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: black;
+    margin: 0px;
+    width: 100%;
+}
+.banner_option{
+    flex: 1;
+    display: flex;
+    background-color: blue;
+}
+.banner_option1{
+    flex: 1;
+    background-color: #5ddb87;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.banner_option2{
+    flex: 1;
+    background-color: #0bc248;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.banner_option3{
+    flex: 1;
+    background-color: #055e23;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*--------------------------------------------------SEGUNDA SECAO*/
+
+#geral{
+    display: flex;
+    justify-content: center;
+    height: 1100px;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #5ddb87;
+    margin-top: 10px;
+}
+.widget_title_bar:hover{
+    background-color: #055e23;
+    width: 65px;
+    
+}
+
+.square--one{
+    flex: 1;
+    width: 170px;
+    height: 170px;
+    background-color: #5ddb87;
+    margin: 10px 10px 10px 0px;
+    float: left;
+}
+.square--two{
+    flex: 1;
+    width: 170px;
+    height: 170px;
+    background-color: #5ddb87;
+    margin: 10px 0px 10px 10px;
+    float: right;
+}
+.square--three{
+    flex: 1;
+    width: 170px;
+    height: 170px;
+    background-color: #5ddb87;
+    margin: 10px 10px 10px 0px;
+    float: left;
+}
+.square--four{
+    flex: 1;
+    width: 170px;
+    height: 170px;
+    background-color: #5ddb87;
+    margin: 10px 0px 10px 10px;
+    float: right;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin: 7px 10px 7px 0px;
+}
+article .news_date{
+    display: flex;
+
+}
+.news_posted_at{
+    display: flex;
+    background-color: #055e23;
+    color: white;
+    padding: 10px;
+    margin-right: 3px;
+}
+.news_comments{
+    display: flex;
+    background-color: #5ddb87;
+    color: white;
+    padding: 10px;
+}
+article .news_thumb{
+    margin-top: 30px;
+}
+article .news_thumb img{
+    width: 100%;
+    height: auto;
+}
+article .news_title{
+    margin-top: 25px;
+    color: black;
+    font-size: 23px;
+}
+article .news_resume{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 19px;
+}
+article a{
+    text-decoration: none;
+}
+
+/*------------------------------------MIDIAS SOCIAS------------------------------*/
+footer{
+    background-color: black;
+    }
+    .rodape{
+        width: 100%;
+        height: 130px;
+    } 
+    .p-rod{
+        font-size: 25px;
+        color:  #727272;
+        float: left;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }  
+    .sociais{
+    float: right;
+    width: 30%; 
+    top: 100%;
+    padding: 22px;
+    
+    }  
+    .rede{
+        display: inline-block; /*deixa as png em linha*/
+        width: 70px;
+        height: 70px;
+        margin: 4px;
+        transition: all 0.04s ease-out;
+        border-radius: 50%;
+    }
+    .rede:hover{ /*efeito de animação*/
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 50);
+    }
+    .rede#facebook{
+    background-color:#2372a3;
+    width: 45px;
+    height: 45px;
+    }
+    .rede#twitter{
+    background-color: #0084b4;
+    width: 45px;
+    height: 45px;
+    }
+    .rede#instagram{
+    background-color: #3f729b;
+    width: 45px;
+    height: 45px;
+    }
+    .rede#snap{
+    background-color: #fc0;
+    width: 45px;
+    height: 45px;
+    }
+    .rede#plus{
+    background-color: #dd4b39;
+    width: 45px;
+    height: 45px;
+    }
+    .rede#youtube{
+    background-color: #b00;
+    width: 45px;
+    height: 45px;
+    }
+    .icone{
+    margin:0px auto;
+    padding: 10px;
+    width: 25px; 
+    height: 25px;   
+    }
